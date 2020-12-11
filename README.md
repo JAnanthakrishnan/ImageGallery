@@ -1,9 +1,9 @@
-# React With Tailwind
+# React app using Tailwind
 
-### Simple react app to search images using pixabay api
+### Simple react app to search images and a countdown timer to rerender gallery using pixabay api
 
-- If planning to use create a .env file in root with content
+I have added my pixabay api key for the ease of testing.
 
-```
-    REACT_APP_PIXABAY_API_KEY = your_api_key
-```
+Countdown button provides the required specification of rerendering the gallery at the end of countdown.
+
+Also a search bar is provided which rerenders the gallery based on the search text entered.
