@@ -21,7 +21,7 @@ function App() {
       .catch((err) => console.error(err));
   }, [term, safe, page]);
   return (
-    <div className="container mx-auto mt-2 mb-16">
+    <div className="container mx-auto mt-2 mb-16 px-8">
       <ImageSearch
         searchText={(text, safe, page) => {
           setTerm(text);
